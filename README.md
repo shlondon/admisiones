@@ -28,6 +28,8 @@ manera se elige como algoritmo: Support Vector Machine (SVM)
 
 ![Grafico 1](Graficas/plot1.jpg)
 
+El siguiente código produce la gráfica.
+
     #Libreria con el sistema de gráficación ggplot2
     library(ggplot2)
 

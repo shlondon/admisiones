@@ -32,6 +32,8 @@ El siguiente gráfico muestra que es necesario un algoritmo de clasificación no l
 
 ![Grafico 1](Graficas/plot1.jpg)
 
+El siguiente código produce la gráfica.
+
 ```{r, message=FALSE, warning=FALSE, eval=FALSE}
 #Libreria con el sistema de gráficación ggplot2
 library(ggplot2)
