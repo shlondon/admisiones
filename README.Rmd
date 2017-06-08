@@ -2,7 +2,7 @@
 title: "README"
 author: "Santiago Humberto Londoño Restrepo"
 date: "8 de junio de 2017"
-output: html_document
+output: md_document
 ---
 
 ```{r setup, include=FALSE}
@@ -30,7 +30,9 @@ test <- read.csv("test-set.csv", header = FALSE)
 
 El siguiente gráfico muestra que es necesario un algoritmo de clasificación no lineal debido a que hay una leve curvatura. De esta manera se elige como algoritmo: Support Vector Machine (SVM)
 
-```{r, message=FALSE, warning=FALSE}
+![Grafico 1](Graficas/plot1.jpg)
+
+```{r, message=FALSE, warning=FALSE, eval=FALSE}
 #Libreria con el sistema de gráficación ggplot2
 library(ggplot2)
 

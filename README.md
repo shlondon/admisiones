@@ -26,6 +26,8 @@ El siguiente gráfico muestra que es necesario un algoritmo de
 clasificación no lineal debido a que hay una leve curvatura. De esta
 manera se elige como algoritmo: Support Vector Machine (SVM)
 
+![Grafico 1](Graficas/plot1.jpg)
+
     #Libreria con el sistema de gráficación ggplot2
     library(ggplot2)
 
@@ -33,8 +35,6 @@ manera se elige como algoritmo: Support Vector Machine (SVM)
     ggplot(train, aes(x=V1, y =V2, 
                       col = as.factor(V3))) +
             geom_point(alpha=0.3, lwd=50)
-
-![](README_files/figure-markdown_strict/unnamed-chunk-3-1.png)
 
 Entrenamiento del modelos
 =========================
